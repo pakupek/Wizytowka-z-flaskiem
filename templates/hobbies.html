@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My hobbies</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style4.css')}}">
+        
+    </head>
+    <body>
+    <div class="container">
+        <div class="content">
+            <div class="side1">
+                <div class="logo">
+                    <h1>Hobbies</h1>
+                </div>       
+            </div>
+            <div class="side2">
+                <div class="links">
+                    <a href="homepage.html">Home</a>
+                    <a href="contact.html">Contact me</a>
+                    <a href="aboutme.html">About me</a>
+                    <a href="hobbies.html">My hobbies</a>
+                </div>
+                <div class="content-side2">
+                    <audio class="music1" controls>
+                        <source src="{{url_for('static', filename='Kygo & Imagine Dragons - Born To Be Yours .mp3')}}" type="audio/ogg">
+                        <source src="{{url_for('static', filename='Kygo & Imagine Dragons - Born To Be Yours .mp3')}}" type="audio/mpeg">
+                    </audio>
+                    <audio class="music2" controls>
+                        <source src="{{url_for('static',filename='Gryffin, Illenium - Feel Good ft. Daya.mp3')}}" type="audio/ogg">
+                        <source src="{{url_for('static',filename='Gryffin, Illenium - Feel Good ft. Daya.mp3')}}" type="audio/mpeg">
+                    </audio>                    
+                    <audio class="music3" controls>
+                        <source src="{{url_for('static',filename='HASHASHINS - COŚ NIE PRAŻY.mp3')}}" type="audio/mpeg">
+                        <source src="{{url_for('static',filename='HASHASHINS - COŚ NIE PRAŻY.mp3')}}" type="audio/mpeg">
+                    </audio>                    
+                    <audio class="music4" controls>
+                        <source src="{{url_for('static', filename='Макс Корж - Малый повзрослел.mp3')}}" type="audio/ogg">
+                        <source src="{{url_for('static', filename='Макс Корж - Малый повзрослел.mp3')}}" type="audio/mpeg">
+                    </audio>    
+                    <div class="unorderedlist">
+                        <ul>
+                            <li>Motosport 
+                                <p>&emsp;In the future I would like to compete in drifting</p>
+                            </li>   
+                            <li>Volleyball
+                                <p>&emsp;In 2018-2021 I was a representative of the school volleyball team. During this period, we led our team to the 1st volleyball league</p>
+                            </li>
+                            <li>Cars
+                                <p>&emsp;Cars are my greatest passion. I love them for the fact that they offer great opportunities for visual and mechanical modifications. 
+                                    Each car is different &emsp;and you can constantly discover their beauty and delight.
+                                    In the future, I would like to run a youtube channel that shows various cars and their beauty, &emsp;and create a collection of cars that I have built for myself</p>
+                            </li>
+                            <li>Music
+                                <p>&emsp;Music makes me feel calm, gives me energy to act. What I love the most is the songs that bring back memories of the best days of summer. 
+                                Here are &emsp;some of my favorite songs: 
+                                <p style="text-decoration:none; color: rgba(207,137,45)">&emsp;1.Kygo & Imagine Dragons - Born to be Yours</p>
+                                <p style="text-decoration:none; color: rgba(207,137,45)">&emsp;2.Gryffin,Illenium ft. Daya - Feel Good</p>                               
+                                <p style="text-decoration:none; color: rgba(207,137,45)">&emsp;3.HASHASHINS - Coś nie praży?!</p>
+                                <p style="text-decoration:none; color: rgba(207,137,45)">&emsp;4.Макс Корж - Малый повзрослел</p>
+                            </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="img">
+                        <i><img src="https://wallpapercave.com/wp/wp5902140.jpg" alt=""></i>
+                        <i><img src="https://i.pinimg.com/564x/0e/20/c0/0e20c08093f21efe665859a33ccf100a.jpg" atl=""></i>
+                        <i><img src="https://image.winudf.com/v2/image1/cmV2ZW5nZS5saXZld3AubXVzaWNfc2NyZWVuXzBfMTU1ODI4NzQ2Ml8wOTE/screen-0.jpg?fakeurl=1&type=.webp" alt=""></i>
+                    </div>
+                    <div class="video">
+                        <iframe width="480" height="270" src="https://www.youtube.com/embed/k5XyWUELUSI?autoplay=1&mute=1" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
